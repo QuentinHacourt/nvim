@@ -26,7 +26,7 @@ utils.opt('b', 'fileencoding', 'utf-8')
 utils.opt('o', 'pumheight', 10)
 utils.opt('o', 'cmdheight', 2)
 utils.opt('o', 'mouse', 'a')
-utils.opt('o', 'go', 'a')
+-- utils.opt('o', 'go', 'a')
 utils.opt('w', 'conceallevel', 0)
 utils.opt('w', 'cursorline', true)
 utils.opt('o', 'swapfile', false)
@@ -42,4 +42,3 @@ vim.opt.iskeyword:append { '-' }
 
 -- Highlight on yank
 vim.cmd 'au TextYankPost * lua vim.highlight.on_yank {on_visual = false}'
-
